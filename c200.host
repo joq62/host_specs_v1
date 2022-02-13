@@ -2,24 +2,24 @@
 %% Host Information 
 %
 %%------------------------ applications to init start ----------------------
-{id,{"c100","h200"}}.
-{hostname,"c100"}.
-{nodename,"h200"}.	
-{node,'h200@c100'}.
+{id,{"c200","host"}}.
+{hostname,"c200"}.
+{nodename,"host"}.	
+{node,'host@c200'}.
 {ip,"192.168.0.100"}.
 {ssh_port,22}.
 {uid,"joq62"}.
 {pwd,"festum01"}.
 
-{root_dir,"h200_c100.vm"}.
+{root_dir,"host_c200.vm"}.
 
 {type,auto}.
 {host_app,{host,"1.0.0","https://github.com/joq62/host.git"}}.
 {erl_cmd,"erl "}.
 {app_env,""}.
 {cookie,"cookie_test"}.
-{pa_args,"-pa h200_c100.logs -pa h200_c100.vm/configs"}.
+{pa_args,"-pa host_c200.logs -pa host_c200.vm/configs"}.
 
-{log_dir,"h200_c100.logs"}.
+{log_dir,"host_c200.logs"}.
 
 {capabilities,[]}.
