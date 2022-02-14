@@ -6,7 +6,7 @@
 {hostname,"c202"}.
 {nodename,"host"}.	
 {node,'host@c202'}.
-{ip,"192.168.0.100"}.
+{ip,"192.168.0.202"}.
 {ssh_port,22}.
 {uid,"joq62"}.
 {pwd,"festum01"}.
